@@ -1,0 +1,25 @@
+Parcel ID,Street Address,City,State,Zip Code,Sale Price,Sale Date,Type,Beds,Baths,Sq Ft,Notes
+CA-100201,123 Main St,San Francisco,CA,94110,"$1,250,000",15/03/2024,Single Family,3,2,"1,850",
+CA-100202,45  Oak Ave  Apt 3,Oakland,California,94612,850000,22/01/2024,Condo,2,1.5,1100,
+MA-200301,9 Beacon St,Boston,MA,2134,"$975,000",02/11/2023,Townhouse,3,2.5,1600,corner unit
+CA-100203,77 Pine Rd,Sacramento,CA,95814,-450000,10/02/2024,Single Family,4,3,2200,
+CA-100204,12 Elm St,Fresno,CA,93721,"$1,2O0,000",01/04/2024,Condo,2,2,1050,
+CA-100205,88 Hill Dr,San Jose,CA,95112,720000,05/13/2024,Single Family,3,2,1400,
+TX-300401,500 Ranch Rd,Austin,tx,78701,$2.1M,Mar 3 2024,Multi-Family,8,6,5400,
+TX-300402,Lot 14 County Rd 9,Austin,TX,78744,"$85,000",20/05/2024,Land,3,,,
+CA-100201,123 Main St,San Francisco,CA,94110,"$1,150,000",15/03/2024,Single Family,3,2,"1,850",re-keyed by clerk
+CA-100206,1 Bay St,San Mateo,CA,94401,N/A,11/06/2024,Condo,2,2,900,
+CA-100207,300 Cliff Ave,Santa Cruz,CA,95060,"640,000.00",29/2/2024,Condo,2,2,980,great view
+NY-400501,22 W 10th St,New York,NY,10011-4402,"$3,400,000",01/01/2031,Condo,3,3,2100,
+NY-400502,5 Park Pl,Brooklyn,NY,11201,"900,000",2024-03-03,Condo,2,1,900,,EXTRA
+CA-100208,19 Vine St,Los Angeles,CA,90028,"$1,075,000",09/07/2024,Single Family,3,2.5,1720,
+CT-200302,4 Elm Row,Hartford,CT,6103,"$410,000",14/08/2024,Single Family,3,1.5,1300,
+CA-100209,61 Ocean Ave,Santa Monica,CA,9040,"$2,300,000",30/06/2024,Single Family,4,3,2600,
+CA-100210,2150 Market St,San Francisco,CA,94114,"$1,480,000",18/04/2024,Condo,2,2,1240,
+CA-100211,415 Grand Ave,Oakland,CA,94610,"$995,000",02/05/2024,Single Family,3,2,1580,
+CA-100212,78 Alma St,Palo Alto,CA,94301,"$3,150,000",23/05/2024,Single Family,4,3.5,2450,
+MA-200303,14 Brattle St,Cambridge,MA,02138,"$1,620,000",04/06/2024,Townhouse,3,2.5,1900,
+TX-300403,1200 Lamar Blvd,Austin,TX,78703,"$689,000",14/06/2024,Condo,2,2,1150,
+TX-300404,9 Rainey St,Austin,TX,78701,"$540,000",16/07/2024,Condo,1,1,780,
+CA-100213,250 Lincoln Blvd,Venice,CA,90291,"$2,050,000",19/07/2024,Single Family,3,2,1650,
+CA-100214,33 Dolores St,San Francisco,CA,94103,"$1,195,000",16/08/2024,Condo,2,2,1100,

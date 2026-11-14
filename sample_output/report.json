@@ -1,0 +1,75 @@
+{
+  "status": "published",
+  "hold_reasons": [],
+  "schema_version": "1.0",
+  "started_at": "2026-11-14T21:35:14+00:00",
+  "finished_at": "2026-11-14T21:35:14+00:00",
+  "input_dir": "data/raw",
+  "max_reject_rate": 0.5,
+  "totals": {
+    "rows_read": 55,
+    "clean": 31,
+    "quarantined": 23,
+    "exact_duplicates_dropped": 1,
+    "reject_rate": 0.4182
+  },
+  "files": [
+    {
+      "file": "broker_feed.json",
+      "status": "processed",
+      "rows": 15,
+      "error": null
+    },
+    {
+      "file": "county_export.csv",
+      "status": "processed",
+      "rows": 24,
+      "error": null
+    },
+    {
+      "file": "scraper_output.jsonl",
+      "status": "processed",
+      "rows": 16,
+      "error": null
+    }
+  ],
+  "reject_reasons": {
+    "purchase_price: unreadable_price": 2,
+    "purchase_date: inconsistent_date_order": 2,
+    "property_id: conflicting_duplicate": 2,
+    "bathrooms: multiple_of": 1,
+    "bedrooms: unreadable_number": 1,
+    "purchase_date: upstream_error_code": 1,
+    "property_type: unknown_property_type": 1,
+    "property_id: missing_required": 1,
+    "purchase_price: greater_than": 1,
+    "purchase_date: day_first_date": 1,
+    "__record__: value_error": 1,
+    "purchase_price: missing_required": 1,
+    "purchase_date: value_error": 1,
+    "__row__: wrong_field_count": 1,
+    "zip: ambiguous_zip": 1,
+    "purchase_price: upstream_error_code": 1,
+    "__row__: invalid_json": 1,
+    "__row__: not_an_object": 1,
+    "purchase_date: ambiguous_date": 1,
+    "sqft: greater_than": 1
+  },
+  "fixes_applied": {
+    "property_type: mapped_property_type": 26,
+    "purchase_price: removed_currency_formatting": 20,
+    "Notes: dropped_unknown_column": 12,
+    "purchase_date: reformatted_date": 11,
+    "scraped_at: dropped_unknown_column": 9,
+    "sqft: removed_number_formatting": 5,
+    "address: cleaned_whitespace": 2,
+    "zip: restored_leading_zero": 2,
+    "state: uppercased": 2,
+    "purchase_price: expanded_k_m_suffix": 2,
+    "purchase_date: dropped_time_of_day": 1,
+    "agentNotes: dropped_unknown_column": 1,
+    "state: state_name_to_code": 1,
+    "city: cleaned_whitespace": 1,
+    "property_id: uppercased": 1
+  }
+}

@@ -1,0 +1,13 @@
+[project]
+name = "property-qa"
+version = "0.1.0"
+description = "Ingestion + QA pipeline: messy property-record files in, schema-validated JSONL out, every rejection explained."
+requires-python = ">=3.12"
+dependencies = ["pydantic>=2.7"]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
